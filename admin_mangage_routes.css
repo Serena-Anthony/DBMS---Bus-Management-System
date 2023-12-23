@@ -1,0 +1,151 @@
+/* Add these styles to admin_mangage_routes.css */
+.form-container {
+    width: 60%;
+    margin: 0px auto;
+}
+.page-title{
+    text-align: center;
+}
+body {
+    align-items: center;
+   
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #89c8ff;
+}
+.success{
+    background-color: green;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+.error{
+    background-color: tomato;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+form {
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.formgroup{
+    margin-bottom: 15px;
+}
+
+input[type="text"], select {
+    width: 100%; /* Set the width to 100% */
+    margin-bottom: 15px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.delete-link, .edit-link{
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.delete-link{
+    color: tomato;
+}
+.edit-link{
+    color: #0056b3;
+}
+
+input[type="number"]
+{
+    height: 28px;
+}
+
+/* Adjust margins and paddings as needed */
+.submit-button {
+    background-color: #0074D9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+table {  
+    border-collapse: collapse;  
+}  
+    .inline{   
+        display: inline-block;   
+        float: right;   
+        margin: 20px 0px;   
+    }   
+     
+
+.pagination {   
+    margin: 20px 0px;
+    display: inline-block;   
+}   
+.inline{
+    margin: 30px 0px;
+}
+.pagination a {   
+    font-weight:bold;   
+    font-size:18px;   
+    color: black;   
+    float: left;   
+    padding: 8px 16px;   
+    text-decoration: none;   
+    border:1px solid black;   
+}   
+.pagination a.active {   
+        background-color: #0f52de !important;
+        color: #fff;   
+}   
+.pagination a:hover:not(.active) {   
+    background-color: skyblue;   
+} 
+.btn{
+    background-color: #0074D9;
+    color: #fff;
+    padding: 7px 13px;
+    border: none;
+    border-radius: 3px;
+}  
+#routes {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #fff ;
+    padding: 20px;;
+  }
+  
+  #routes td, #routes th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+
+  
+  #routes th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #0f52de;
+    color: white;
+  }
+

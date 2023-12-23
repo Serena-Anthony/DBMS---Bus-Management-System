@@ -1,0 +1,56 @@
+/* Add these styles to styles_b.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #3498db; /* Blue background color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.5s ease-in-out; /* Add a fade-in animation */
+}
+
+h1 {
+    color: #3498db; /* Blue text color */
+}
+
+p {
+    color: #555; /* Dark gray text color */
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #3498db; /* Blue button color */
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,199 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #00A9FF;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 30px;
+    border: 1px solid #d4e4eb;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #3498db;
+}
+
+p {
+    margin-top: 20px;
+}
+
+strong {
+    color: #3498db;
+}
+
+#total-amount {
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+#total-seats {
+    color: #e74c3c; /* Red text color for total seats */
+    font-weight: bold;
+}
+
+input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+
+/* ... (Existing styles) ... */
+
+#bus-layout {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.seat {
+    width: 50px;
+    height: 50px;
+    background-color: #bdc3c7; /* Default seat color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.blocked{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(141, 5, 5); /* Default seat color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: #fff;
+}
+
+.seat:hover {
+    background-color: #27ae60; /* Green color on hover */
+}
+
+.seat.selected {
+    background-color: #27ae60; /* Permanent green color for selected seats */
+    pointer-events: none; /* Disable further clicking on selected seats */
+}
+
+/* ... (Existing styles) ... */
+/* ... (Existing styles) ... */
+
+#bus-layout {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.seat {
+    width: 50px;
+    height: 50px;
+    background-color: #bdc3c7; /* Default seat color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.seat:hover {
+    background-color: #27ae60; /* Green color on hover */
+}
+
+.seat.selected {
+    background-color: #27ae60; /* Permanent green color for selected seats */
+    pointer-events: none; /* Disable further clicking on selected seats */
+}
+
+.passenger-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.passenger-form label {
+    flex: 0 0 48%; /* Adjust label width */
+    margin-top: 10px;
+}
+
+.passenger-form input,
+.passenger-form select {
+    flex: 0 0 48%; /* Adjust input width */
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* ... (Existing styles) ... */
+
+.pform{
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #333;
+    border-radius: 7px;
+    margin: 18px 0px;
+}
+.details-bar{
+    font-size: 15px;
+    padding: 4px 0px;
+    color: #666;
+}
+.form-input{
+    margin: 5px;
+    height: 30px;
+    border: 2px solid #666;
+    border-radius: 5px;
+}
+select.form-input{
+    height: 36px;
+}
+.remove-btn{
+    border: none;
+    padding: 10px 20px;
+    background-color: #991919;
+    color: #fff;
+    border-radius: 5px;
+}
+.remove-btn:hover{
+    background-color: #5b0a0a;
+    cursor: pointer;
+}
+.booknow{
+    border: none;
+    padding: 10px 20px;
+    background-color: #0b7632;
+    color: #fff;
+    border-radius: 5px;
+}
+.booknow:hover{
+    background-color: #053815;
+    cursor: pointer;
+}

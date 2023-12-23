@@ -1,0 +1,79 @@
+/* Add these styles to complaint.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3498db; /* Blue background color */
+}
+
+.container {
+    width: 500px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    animation: fadeIn 0.5s ease-in-out; /* Add a fade-in animation */
+}
+
+h1 {
+    color: #3498db; /* Blue text color */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-top: 10px;
+    color: #3498db; /* Blue label color */
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 12px;
+    width: 100%;
+    border: 1px solid #3498db; /* Blue border color */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #3498db; /* Blue button color */
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+/* Hidden class to initially hide the confirmation message */
+.hidden {
+    display: none;
+}
+
+#confirmationMessage {
+    color: #3498db; /* Blue confirmation message color */
+    font-weight: bold;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1E90FF; /* Blue background color */
+    color: #fff; /* White text color */
+    background-image: url(./images/passenger.jpg); /* Replace 'your-background-image.jpg' with the path to your image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+    background-color: #0056b3;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 35px;
+    padding-bottom: 40px;
+    color: white;
+}
+
+form {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #E0F4FF;
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="date"],
+select {
+    width: 90%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #0074D9; /* Blue button color */
+    color: #fff;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3; /* Change button color on hover */
+}

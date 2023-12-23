@@ -1,0 +1,62 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1E90FF;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #F5F5F5;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #2c3e50;
+    font-size: xx-large;
+}
+
+.bus-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #2f80cc;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.bus-card:hover {
+    background-color: #1E90FF; /* Change background color on hover */
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 5px 0;
+}
+
+.book-button {
+    background-color: #4CAF50;
+    color: #fff;
+    width: 200px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.book-button:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,29 @@
+.navbar{
+    background-color: rgb(30, 90, 194);
+    padding: 0px 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.usermenu{
+    display: flex;
+    padding: 0;
+}
+.usermenu li{
+    list-style: none;
+    padding: 10px 30px;
+    margin: 2px;
+    background-color: rgb(29 69 171);
+    border-radius: 5px;
+}
+.usermenu li:hover{
+    background-color: rgb(4, 47, 155);
+    box-shadow: 1px 1px 5px #333;
+}
+.usermenu li a{
+    text-decoration: none;
+    color: #fff;
+}
+.active{
+    background-color: rgb(4, 47, 155) !important;
+}

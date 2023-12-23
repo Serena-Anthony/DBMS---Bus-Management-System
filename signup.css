@@ -1,0 +1,90 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('https://mustsharenews.com/wp-content/uploads/2020/10/Electric-Buses-1.png') no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+.success{
+    background-color: green;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+.error{
+    background-color: tomato;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+.container {
+    background-color: #3498db; /* Blue color scheme */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+    width: 300px;
+    max-height: 80vh; /* Maximum height to prevent touching borders */
+    overflow-y: auto; /* Add scrollbar if content exceeds height */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: #fff; /* Text color in the dynamic color scheme */
+}
+
+label {
+    margin: 10px 0;
+    color: #fff; /* Text color in the dynamic color scheme */
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.gender-options {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    background-color: #3498db; /* Button color in the dynamic color scheme */
+    color: #fff; /* Text color in the dynamic color scheme */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #2980b9; /* Button hover color in the dynamic color scheme */
+}
+
+p {
+    color: #fff; /* Text color in the dynamic color scheme */
+    margin-top: 10px;
+}

@@ -1,0 +1,31 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7; /* Light gray background */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 1px solid #e0e0e0; /* Light border color */
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #3498db; /* Blue header color */
+}
+
+p {
+    margin: 15px 0;
+    color: #555; /* Dark gray text color */
+}
+
+span {
+    font-weight: bold;
+    color: #2c3e50; /* Dark text color */
+}
